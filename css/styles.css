@@ -1,0 +1,286 @@
+/*body{
+	background: purple;
+}*/
+
+/* 重置样式*/
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/* 去除超链接的下划线*/
+a{
+	text-decoration: none;
+}
+
+/************** 1、头部 **************/
+#header{
+	/* 盒子100px = content + padding*/
+	width: 959px;
+	height: 64px;
+	/*background: red;*/
+	margin: 0 auto;
+	
+	/* 盒子内容往下偏移*/
+	/*padding-top: 36px;*/
+	
+	padding: 36px 20px 0 20px;
+}
+#header .search{
+	float: right;
+	width: 213px;
+	height: 24px;
+	border: 2px solid #e6e6e6;
+	padding-left: 15px;
+	background: #f1f1f1;
+}
+#header .bt{
+	width: 22px;
+	height: 24px;
+	background: url(../images/search-bt.png);
+	border: none;
+	float: right;
+}
+#header .text{
+	width: 191px;
+	height: 24px;
+	border: none;
+	float: left;
+	/* 清除背景颜色*/
+	background: none;
+}
+
+/************** 2、导航 **************/
+#nav{
+	width: 972px;
+	height: 60px;
+	background: #303030;
+	margin: 0 auto;
+	padding-left: 27px;
+}
+#nav a{
+	color: white;
+	float: left;
+	width: 120px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	border-right: 1px solid gray;
+}
+#nav a:hover{
+	background: red;
+}
+/* 最后一个不显示边框 -- 特殊处理*/
+#nav .last{
+	border: none;
+}
+
+
+/************** 3、横幅 **************/
+#banner{
+	width: 999px;
+	height: 464px;
+	background: url(../images/banner.png);
+	margin: 0 auto;
+}
+
+
+/************** 4、新闻1 **************/
+#news_1{
+	width: 999px;
+	height: 244px;
+	/*background: gray;*/
+	margin: 0 auto;
+}
+
+#news_1 .section1{
+	width: 480px;
+	height: 209px;
+	/*background: red;*/
+	float: left;
+	padding-top: 36px;
+	padding-left: 20px;
+}
+#news_1 .section1 ul{
+	/*margin-left: 20px;*/
+	/*background: purple;*/
+	padding-left: 20px;
+	margin-top: 25px;
+	color: #777777;
+}
+#news_1 .section1 li{
+	width: 450px;
+	height: 26px;
+	font-size: 14px;
+	line-height: 26px;
+	/*list-style-position: inside;*/
+}
+#news_1 .section1 li a{
+	float: left;
+	color: #777777;
+	/*width: 300px;*/
+}
+#news_1 .section1 li span{
+	float: right;
+	color: #a5a5a5;
+}
+
+
+#news_1 .section2{
+	width: 216px;
+	height: 208px;
+	background: #f1f1f1;
+	float: left;
+	padding-top: 36px;
+	padding-left: 25px;
+}
+#news_1 .section2 .p1{
+	width: 130px;
+	font-size: 13px;
+	margin-top: 36px;
+	color: #505050;
+}
+#news_1 .section2 .p2{
+	width: 190px;
+	font-size: 13px;
+	margin-top: 24px;
+	color: #bababa;
+}
+	
+
+
+#news_1 .section3{
+	width: 234px;
+	height: 208px;
+	background: #fbfbfb url(../images/news2.png) no-repeat right bottom;
+	float: left;
+	padding-top: 36px;
+	padding-left: 24px;
+}
+#news_1 .section3 p{
+	margin-top: 24px;
+	font-size: 14px;
+	color: #5d5d5d;
+}
+#news_1 .section3 img{
+	margin-top: 52px;
+}
+
+/************** 5、新闻2 **************/
+#news_2{
+	width: 999px;
+	height: 277px;
+	background: white;
+	margin: 0 auto;
+	padding-top: 27px;
+}
+#news_2 h3{
+	margin-left: 20px;
+}
+#news_2 dl{
+	width: 210px;
+	height: 200px;
+	float: left;
+	margin: 14px 19px;
+	font-size: 13px;
+}
+#news_2 dt{
+	margin-bottom: 15px;
+}
+#news_2 dd{
+	width: 210px;
+	line-height: 24px;
+}
+#news_2 a{
+	color: #616161;
+}
+
+
+/************** 6、底部 **************/
+#bottom{
+	width: 963px;
+	height: 220px;
+	background: #e5e5e5;
+	margin: 0 auto;
+	padding: 30px 18px 0 18px;
+}
+#bottom h3{
+	font-weight: none;
+	height: 28px;
+}
+#bottom .content{
+	/* section1/section2/section3宽度是不一致的*/
+	/*width: 456px;*/
+	height: 172px;
+	border-top: 2px solid gray;
+	padding-top: 18px;
+}
+#bottom .content li{
+	list-style-position: inside;
+	list-style-image: url(../images/bottom1.png);
+}
+#bottom a{
+	color: gray;
+}
+
+#bottom .section1{
+	width: 456px;
+	height: 220px;
+	margin-right: 50px;
+	float: left;
+}
+#bottom .section1 .ul1{
+	width:154px;
+}
+#bottom .section1 .ul2{
+	width: 192px;
+}
+#bottom .section1 ul{
+	float: left;
+}
+
+#bottom .section2{
+	width: 152px;
+	height: 220px;
+	margin-right: 50px;
+	/*background: red;*/
+	float: left;
+}
+#bottom .section3{
+	width: 255px;
+	height: 220px;
+	background: url(../images/bottom2.png) no-repeat right bottom;
+	float: left;
+}
+
+
+/************** 7、尾部 **************/
+#footer{
+	width: 999px;
+	height: 82px;
+	background: white;
+	margin: 0 auto;
+}
+#footer .section1{
+	width: 300px;
+	height: 60px;
+	/*background: red;*/
+	float: left;
+	color: gray;
+	margin-left: 20px;
+	padding-top: 22px;
+}
+#footer .section1 a{
+	font-size: 12px;
+	color: gray;
+}
+
+#footer .section2{
+	width: 620px;
+	height: 60px;
+	float: right;
+	/*background: purple;*/
+	color: gray;
+	font-size: 12px;
+	padding-top: 22px;
+}
